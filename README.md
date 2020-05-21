@@ -54,7 +54,7 @@ See the Singer docs on discovery mode [here](https://github.com/singer-io/gettin
 
 5. Run the Tap in Sync Mode
 ```sh
-  tap-shopify -c config.json --catalog catalog-file.json
+  tap-apparel-magic -c config.json --catalog catalog-file.json
 ```
 
 ---
