@@ -1,0 +1,66 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": ["null", "string"]
+    },
+    "name": {
+      "type": ["null", "string"]
+    },
+    "is_product": {
+      "type": ["null", "string"]
+    },
+    "is_component": {
+      "type": ["null", "string"]
+    },
+    "size_01": {
+      "type": ["null", "string"]
+    },
+    "size_02": {
+      "type": ["null", "string"]
+    },
+    "size_03": {
+      "type": ["null", "string"]
+    },
+    "size_04": {
+      "type": ["null", "string"]
+    },
+    "size_05": {
+      "type": ["null", "string"]
+    },
+    "size_06": {
+      "type": ["null", "string"]
+    },
+    "size_07": {
+      "type": ["null", "string"]
+    },
+    "size_08": {
+      "type": ["null", "string"]
+    },
+    "size_09": {
+      "type": ["null", "string"]
+    },
+    "size_10": {
+      "type": ["null", "string"]
+    },
+    "size_11": {
+      "type": ["null", "string"]
+    },
+    "size_12": {
+      "type": ["null", "string"]
+    },
+    "size_13": {
+      "type": ["null", "string"]
+    },
+    "size_14": {
+      "type": ["null", "string"]
+    },
+    "size_15": {
+      "type": ["null", "string"]
+    },
+    "size_16": {
+      "type": ["null", "string"]
+    }
+  }
+}

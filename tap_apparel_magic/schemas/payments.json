@@ -1,0 +1,358 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "payment_id": {
+      "type": ["null", "string"]
+    },
+    "customer_id": {
+      "type": ["null", "string"]
+    },
+    "reference": {
+      "type": ["null", "string"]
+    },
+    "payment_type": {
+      "type": ["null", "string"]
+    },
+    "amt_dr": {
+      "type": ["null", "number"]
+    },
+    "amount_applied": {
+      "type": ["null", "number"]
+    },
+    "amount_applied_invoice": {
+      "type": ["null", "number"]
+    },
+    "amount_applied_cm": {
+      "type": ["null", "number"]
+    },
+    "amount_unapplied": {
+      "type": ["null", "number"]
+    },
+    "balance": {
+      "type": ["null", "number"]
+    },
+    "comments": {
+      "type": ["null", "string"]
+    },
+    "notes": {
+      "type": ["null", "string"]
+    },
+    "date": {
+      "type": ["null", "string"]
+    },
+    "currency_id": {
+      "type": ["null", "string"]
+    },
+    "currency_rate": {
+      "type": ["null", "string"]
+    },
+    "void": {
+      "type": ["null", "string"]
+    },
+    "deposit_id": {
+      "type": ["null", "string"]
+    },
+    "is_gateway_payment": {
+      "type": ["null", "string"]
+    },
+    "is_pre_auth": {
+      "type": ["null", "string"]
+    },
+    "is_locked": {
+      "type": ["null", "string"]
+    },
+    "xero_id": {
+      "type": ["null", "string"]
+    },
+    "shopify_id": {
+      "type": ["null", "string"]
+    },
+    "shopify_store_id": {
+      "type": ["null", "string"]
+    },
+    "quickbooks_id": {
+      "type": ["null", "string"]
+    },
+    "quickbooks_sync_status": {
+      "type": ["null", "string"]
+    },
+    "quickbooks_sync_message": {
+      "type": ["null", "string"]
+    },
+    "quickbooks_sync_datetime": {
+      "type": ["null", "string"]
+    },
+    "is_printed": {
+      "type": ["null", "string"]
+    },
+    "customer_credit_acct": {
+      "type": ["null", "string"]
+    },
+    "payment_header_lines": {
+      "type": ["null", "array"],
+      "items": {
+        "type": ["null", "object"],
+        "properties": {
+          "id": {
+            "type": ["null", "string"]
+          },
+          "is_closed": {
+            "type": ["null", "string"]
+          },
+          "error": {
+            "type": ["null", "string"]
+          },
+          "gl_acct": {
+            "type": ["null", "string"]
+          },
+          "amt_dr": {
+            "type": ["null", "number"]
+          },
+          "amt_cr": {
+            "type": ["null", "number"]
+          },
+          "currency_id": {
+            "type": ["null", "string"]
+          },
+          "currency_rate": {
+            "type": ["null", "string"]
+          },
+          "date": {
+            "type": ["null", "string"]
+          },
+          "date_modified": {
+            "type": ["null", "string"]
+          },
+          "transaction_id": {
+            "type": ["null", "string"]
+          },
+          "source_journal": {
+            "type": ["null", "string"]
+          },
+          "payment_id": {
+            "type": ["null", "string"]
+          },
+          "customer_id": {
+            "type": ["null", "string"]
+          },
+          "vendor_id": {
+            "type": ["null", "string"]
+          },
+          "invoice_id": {
+            "type": ["null", "string"]
+          },
+          "credit_memo_id": {
+            "type": ["null", "string"]
+          },
+          "order_id": {
+            "type": ["null", "string"]
+          },
+          "ap_id": {
+            "type": ["null", "string"]
+          },
+          "journal_id": {
+            "type": ["null", "string"]
+          },
+          "po_id": {
+            "type": ["null", "string"]
+          },
+          "receiver_id": {
+            "type": ["null", "string"]
+          },
+          "project_id": {
+            "type": ["null", "string"]
+          },
+          "check_id": {
+            "type": ["null", "string"]
+          },
+          "deposit_id": {
+            "type": ["null", "string"]
+          },
+          "is_payment_header": {
+            "type": ["null", "string"]
+          },
+          "is_ap_header": {
+            "type": ["null", "string"]
+          },
+          "is_check_header": {
+            "type": ["null", "string"]
+          },
+          "is_currency_gain_loss": {
+            "type": ["null", "string"]
+          },
+          "division_id": {
+            "type": ["null", "string"]
+          },
+          "reconciliation_id": {
+            "type": ["null", "string"]
+          },
+          "reconciliation_id_temp": {
+            "type": ["null", "string"]
+          },
+          "gateway_transaction_id": {
+            "type": ["null", "string"]
+          },
+          "gateway_payment_profile_id": {
+            "type": ["null", "string"]
+          },
+          "is_year_end_closing_entry": {
+            "type": ["null", "string"]
+          },
+          "currency_name": {
+            "type": ["null", "string"]
+          },
+          "foreign_amt_dr": {
+            "type": ["null", "string"]
+          },
+          "foreign_amt_cr": {
+            "type": ["null", "string"]
+          }
+        }
+      }
+    },
+    "applied_invoice_lines": {
+      "type": ["null", "array"],
+      "items": {
+        "type": ["null", "object"],
+        "properties": {
+          "id": {
+            "type": ["null", "string"]
+          },
+          "is_closed": {
+            "type": ["null", "string"]
+          },
+          "error": {
+            "type": ["null", "string"]
+          },
+          "gl_acct": {
+            "type": ["null", "string"]
+          },
+          "amt_dr": {
+            "type": ["null", "number"]
+          },
+          "amt_cr": {
+            "type": ["null", "number"]
+          },
+          "currency_id": {
+            "type": ["null", "string"]
+          },
+          "currency_rate": {
+            "type": ["null", "string"]
+          },
+          "date": {
+            "type": ["null", "string"]
+          },
+          "date_modified": {
+            "type": ["null", "string"]
+          },
+          "transaction_id": {
+            "type": ["null", "string"]
+          },
+          "source_journal": {
+            "type": ["null", "string"]
+          },
+          "payment_id": {
+            "type": ["null", "string"]
+          },
+          "customer_id": {
+            "type": ["null", "string"]
+          },
+          "vendor_id": {
+            "type": ["null", "string"]
+          },
+          "invoice_id": {
+            "type": ["null", "string"]
+          },
+          "credit_memo_id": {
+            "type": ["null", "string"]
+          },
+          "order_id": {
+            "type": ["null", "string"]
+          },
+          "ap_id": {
+            "type": ["null", "string"]
+          },
+          "journal_id": {
+            "type": ["null", "string"]
+          },
+          "po_id": {
+            "type": ["null", "string"]
+          },
+          "receiver_id": {
+            "type": ["null", "string"]
+          },
+          "project_id": {
+            "type": ["null", "string"]
+          },
+          "check_id": {
+            "type": ["null", "string"]
+          },
+          "deposit_id": {
+            "type": ["null", "string"]
+          },
+          "is_payment_header": {
+            "type": ["null", "string"]
+          },
+          "is_ap_header": {
+            "type": ["null", "string"]
+          },
+          "is_check_header": {
+            "type": ["null", "string"]
+          },
+          "is_currency_gain_loss": {
+            "type": ["null", "string"]
+          },
+          "division_id": {
+            "type": ["null", "string"]
+          },
+          "reconciliation_id": {
+            "type": ["null", "string"]
+          },
+          "reconciliation_id_temp": {
+            "type": ["null", "string"]
+          },
+          "gateway_transaction_id": {
+            "type": ["null", "string"]
+          },
+          "gateway_payment_profile_id": {
+            "type": ["null", "string"]
+          },
+          "is_year_end_closing_entry": {
+            "type": ["null", "string"]
+          },
+          "currency_name": {
+            "type": ["null", "string"]
+          },
+          "foreign_amt_dr": {
+            "type": ["null", "string"]
+          },
+          "foreign_amt_cr": {
+            "type": ["null", "string"]
+          }
+        }
+      }
+    },
+    "currency_name": {
+      "type": ["null", "string"]
+    },
+    "foreign_amt_dr": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_applied": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_applied_invoice": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_applied_cm": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_unapplied": {
+      "type": ["null", "string"]
+    },
+    "foreign_balance": {
+      "type": ["null", "string"]
+    }
+  }
+}

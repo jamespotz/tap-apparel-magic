@@ -1,0 +1,108 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "vendor_id": {
+      "type": ["null", "string"]
+    },
+    "account_number": {
+      "type": ["null", "string"]
+    },
+    "vendor_name": {
+      "type": ["null", "string"]
+    },
+    "active": {
+      "type": ["null", "string"]
+    },
+    "address_1": {
+      "type": ["null", "string"]
+    },
+    "address_2": {
+      "type": ["null", "string"]
+    },
+    "city": {
+      "type": ["null", "string"]
+    },
+    "state": {
+      "type": ["null", "string"]
+    },
+    "postal_code": {
+      "type": ["null", "string"]
+    },
+    "country": {
+      "type": ["null", "string"]
+    },
+    "phone": {
+      "type": ["null", "string"]
+    },
+    "fox": {
+      "type": ["null", "string"]
+    },
+    "email": {
+      "type": ["null", "string"]
+    },
+    "website": {
+      "type": ["null", "string"]
+    },
+    "shipping_info": {
+      "type": ["null", "string"]
+    },
+    "credit_limit": {
+      "type": ["null", "string"]
+    },
+    "credit_status": {
+      "type": ["null", "string"]
+    },
+    "category": {
+      "type": ["null", "string"]
+    },
+    "terms_id": {
+      "type": ["null", "string"]
+    },
+    "division_id": {
+      "type": ["null", "string"]
+    },
+    "warehouse_id": {
+      "type": ["null", "string"]
+    },
+    "status": {
+      "type": ["null", "string"]
+    },
+    "notes": {
+      "type": ["null", "string"]
+    },
+    "shipping_terms_id": {
+      "type": ["null", "string"]
+    },
+    "ship_via": {
+      "type": ["null", "string"]
+    },
+    "is_active": {
+      "type": ["null", "string"]
+    },
+    "currency_id": {
+      "type": ["null", "string"]
+    },
+    "xero_id": {
+      "type": ["null", "string"]
+    },
+    "quickbooks_id": {
+      "type": ["null", "string"]
+    },
+    "xero_synced": {
+      "type": ["null", "string"]
+    },
+    "quickbooks_sync_status": {
+      "type": ["null", "string"]
+    },
+    "quickbooks_sync_message": {
+      "type": ["null", "string"]
+    },
+    "quickbooks_sync_datetime": {
+      "type": ["null", "string"]
+    },
+    "custom_purchase_order_print_id": {
+      "type": ["null", "string"]
+    }
+  }
+}

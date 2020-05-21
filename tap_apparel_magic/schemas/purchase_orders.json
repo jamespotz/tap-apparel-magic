@@ -1,0 +1,306 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "purchase_order_id": {
+      "type": ["null", "string"]
+    },
+    "warehouse_id": {
+      "type": ["null", "string"]
+    },
+    "item_warehouse_overridden": {
+      "type": ["null", "string"]
+    },
+    "issue_from_warehouse_id": {
+      "type": ["null", "string"]
+    },
+    "vendor_id": {
+      "type": ["null", "string"]
+    },
+    "vendor_po": {
+      "type": ["null", "string"]
+    },
+    "project_id": {
+      "type": ["null", "string"]
+    },
+    "process_id": {
+      "type": ["null", "string"]
+    },
+    "step_number": {
+      "type": ["null", "string"]
+    },
+    "name": {
+      "type": ["null", "string"]
+    },
+    "address_1": {
+      "type": ["null", "string"]
+    },
+    "address_2": {
+      "type": ["null", "string"]
+    },
+    "city": {
+      "type": ["null", "string"]
+    },
+    "state": {
+      "type": ["null", "string"]
+    },
+    "postal_code": {
+      "type": ["null", "string"]
+    },
+    "country": {
+      "type": ["null", "string"]
+    },
+    "shipping_address_override": {
+      "type": ["null", "string"]
+    },
+    "shipping_vendor_address_override": {
+      "type": ["null", "string"]
+    },
+    "shipping_name": {
+      "type": ["null", "string"]
+    },
+    "shipping_address_1": {
+      "type": ["null", "string"]
+    },
+    "shipping_address_2": {
+      "type": ["null", "string"]
+    },
+    "shipping_city": {
+      "type": ["null", "string"]
+    },
+    "shipping_state": {
+      "type": ["null", "string"]
+    },
+    "shipping_postal_code": {
+      "type": ["null", "string"]
+    },
+    "shipping_country": {
+      "type": ["null", "string"]
+    },
+    "shipping_phone": {
+      "type": ["null", "string"]
+    },
+    "phone": {
+      "type": ["null", "string"]
+    },
+    "date": {
+      "type": ["null", "string"]
+    },
+    "date_start": {
+      "type": ["null", "string"]
+    },
+    "date_ex_factory": {
+      "type": ["null", "string"]
+    },
+    "date_due": {
+      "type": ["null", "string"]
+    },
+    "item_due_dates_overridden": {
+      "type": ["null", "string"]
+    },
+    "item_ex_factory_dates_overridden": {
+      "type": ["null", "string"]
+    },
+    "notes": {
+      "type": ["null", "string"]
+    },
+    "private_notes": {
+      "type": ["null", "string"]
+    },
+    "qty": {
+      "type": ["null", "string"]
+    },
+    "amount": {
+      "type": ["null", "number"]
+    },
+    "amount_open": {
+      "type": ["null", "number"]
+    },
+    "amount_cxl": {
+      "type": ["null", "number"]
+    },
+    "qty_received": {
+      "type": ["null", "string"]
+    },
+    "qty_cxl": {
+      "type": ["null", "string"]
+    },
+    "qty_in_transit": {
+      "type": ["null", "string"]
+    },
+    "qty_open": {
+      "type": ["null", "string"]
+    },
+    "ship_via": {
+      "type": ["null", "string"]
+    },
+    "shipping_terms_id": {
+      "type": ["null", "string"]
+    },
+    "tracking_number": {
+      "type": ["null", "string"]
+    },
+    "terms_id": {
+      "type": ["null", "string"]
+    },
+    "division_id": {
+      "type": ["null", "string"]
+    },
+    "project_number": {
+      "type": ["null", "string"]
+    },
+    "amount_subtotal": {
+      "type": ["null", "number"]
+    },
+    "amount_freight": {
+      "type": ["null", "number"]
+    },
+    "amount_duty": {
+      "type": ["null", "number"]
+    },
+    "amount_other": {
+      "type": ["null", "number"]
+    },
+    "shipping_info": {
+      "type": ["null", "string"]
+    },
+    "is_locked": {
+      "type": ["null", "string"]
+    },
+    "is_actualized": {
+      "type": ["null", "string"]
+    },
+    "currency_id": {
+      "type": ["null", "string"]
+    },
+    "currency_rate": {
+      "type": ["null", "string"]
+    },
+    "is_printed": {
+      "type": ["null", "string"]
+    },
+    "is_emailed": {
+      "type": ["null", "string"]
+    },
+    "process_name": {
+      "type": ["null", "string"]
+    },
+    "process_description": {
+      "type": ["null", "string"]
+    },
+    "last_modified_time": {
+      "type": ["null", "string"],
+      "format": "date-time"
+    },
+    "print_url": {
+      "type": ["null", "string"]
+    },
+    "purchase_order_items": {
+      "type": ["null", "array"],
+      "items": {
+        "type": ["null", "object"],
+        "properties": {
+          "id": {
+            "type": ["null", "string"]
+          },
+          "warehouse_id": {
+            "type": ["null", "string"]
+          },
+          "row_id": {
+            "type": ["null", "string"]
+          },
+          "purchase_order_id": {
+            "type": ["null", "string"]
+          },
+          "date_due": {
+            "type": ["null", "string"]
+          },
+          "date_ex_factory": {
+            "type": ["null", "string"]
+          },
+          "order_item_id": {
+            "type": ["null", "string"]
+          },
+          "project_item_id": {
+            "type": ["null", "string"]
+          },
+          "qty": {
+            "type": ["null", "string"]
+          },
+          "qty_open": {
+            "type": ["null", "string"]
+          },
+          "qty_cxl": {
+            "type": ["null", "string"]
+          },
+          "qty_in_transit": {
+            "type": ["null", "string"]
+          },
+          "qty_received": {
+            "type": ["null", "string"]
+          },
+          "unit_cost": {
+            "type": ["null", "string"]
+          },
+          "amount": {
+            "type": ["null", "number"]
+          },
+          "sku_id": {
+            "type": ["null", "string"]
+          },
+          "notes": {
+            "type": ["null", "string"]
+          },
+          "timereaction_id": {
+            "type": ["null", "string"]
+          },
+          "product_id": {
+            "type": ["null", "string"]
+          },
+          "attr_2": {
+            "type": ["null", "string"]
+          },
+          "attr_3": {
+            "type": ["null", "string"]
+          },
+          "size": {
+            "type": ["null", "string"]
+          },
+          "style_number": {
+            "type": ["null", "string"]
+          },
+          "description": {
+            "type": ["null", "string"]
+          },
+          "foreign_amount": {
+            "type": ["null", "string"]
+          }
+        }
+      }
+    },
+    "currency_name": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_open": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_cxl": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_subtotal": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_freight": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_duty": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_other": {
+      "type": ["null", "string"]
+    }
+  }
+}

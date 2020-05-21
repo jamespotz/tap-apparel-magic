@@ -1,0 +1,76 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": ["null", "string"]
+    },
+    "product_id": {
+      "type": ["null", "string"]
+    },
+    "attribute_2": {
+      "type": ["null", "string"]
+    },
+    "attribute_3": {
+      "type": ["null", "string"]
+    },
+    "season": {
+      "type": ["null", "string"]
+    },
+    "origin": {
+      "type": ["null", "string"]
+    },
+    "tariff_code": {
+      "type": ["null", "string"]
+    },
+    "content": {
+      "type": ["null", "string"]
+    },
+    "web_title": {
+      "type": ["null", "string"]
+    },
+    "web_description": {
+      "type": ["null", "string"]
+    },
+    "joor_web_title": {
+      "type": ["null", "string"]
+    },
+    "joor_web_description": {
+      "type": ["null", "string"]
+    },
+    "joor_sync": {
+      "type": ["null", "string"]
+    },
+    "joor_product_id": {
+      "type": ["null", "string"]
+    },
+    "joor_sync_colorway_swatches": {
+      "type": ["null", "string"]
+    },
+    "attr_2_name": {
+      "type": ["null", "string"]
+    },
+    "attr_3_name": {
+      "type": ["null", "string"]
+    },
+    "image": {
+      "type": ["null", "object"],
+      "properties": {
+        "img": {
+          "type": ["null", "string"]
+        }
+      }
+    },
+    "images": {
+      "type": ["null", "array"],
+      "items": {
+        "type": ["null", "object"],
+        "properties": {
+          "img": {
+            "type": ["null", "string"]
+          }
+        }
+      }
+    }
+  }
+}

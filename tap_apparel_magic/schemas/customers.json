@@ -1,0 +1,221 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "customer_id": {
+      "type": ["null", "string"]
+    },
+    "account_number": {
+      "type": ["null", "string"]
+    },
+    "customer_name": {
+      "type": ["null", "string"]
+    },
+    "active": {
+      "type": ["null", "string"]
+    },
+    "address_1": {
+      "type": ["null", "string"]
+    },
+    "address_2": {
+      "type": ["null", "string"]
+    },
+    "city": {
+      "type": ["null", "string"]
+    },
+    "state": {
+      "type": ["null", "string"]
+    },
+    "postal_code": {
+      "type": ["null", "string"]
+    },
+    "country": {
+      "type": ["null", "string"]
+    },
+    "phone": {
+      "type": ["null", "string"]
+    },
+    "fax": {
+      "type": ["null", "string"]
+    },
+    "email": {
+      "type": ["null", "string"]
+    },
+    "first_name": {
+      "type": ["null", "string"]
+    },
+    "last_name": {
+      "type": ["null", "string"]
+    },
+    "terms_id": {
+      "type": ["null", "string"]
+    },
+    "credit_limit": {
+      "type": ["null", "string"]
+    },
+    "credit_usage": {
+      "type": ["null", "string"]
+    },
+    "status": {
+      "type": ["null", "string"]
+    },
+    "category": {
+      "type": ["null", "string"]
+    },
+    "division_id": {
+      "type": ["null", "string"]
+    },
+    "warehouse_id": {
+      "type": ["null", "string"]
+    },
+    "ar_acct": {
+      "type": ["null", "string"]
+    },
+    "customer_credit_acct": {
+      "type": ["null", "string"]
+    },
+    "website": {
+      "type": ["null", "string"]
+    },
+    "notes": {
+      "type": ["null", "string"]
+    },
+    "shipping_info": {
+      "type": ["null", "string"]
+    },
+    "pct_discount": {
+      "type": ["null", "string"]
+    },
+    "is_active": {
+      "type": ["null", "string"]
+    },
+    "buyer_filter": {
+      "type": ["null", "string"]
+    },
+    "edi_department": {
+      "type": ["null", "string"]
+    },
+    "factor_account_number": {
+      "type": ["null", "string"]
+    },
+    "anet_id": {
+      "type": ["null", "string"]
+    },
+    "currency_id": {
+      "type": ["null", "string"]
+    },
+    "price_group": {
+      "type": ["null", "string"]
+    },
+    "xero_id": {
+      "type": ["null", "string"]
+    },
+    "xero_synced": {
+      "type": ["null", "string"]
+    },
+    "shopify_id": {
+      "type": ["null", "string"]
+    },
+    "quickbooks_id": {
+      "type": ["null", "string"]
+    },
+    "shipping_terms_id": {
+      "type": ["null", "string"]
+    },
+    "ship_via": {
+      "type": ["null", "string"]
+    },
+    "quickbooks_sync_status": {
+      "type": ["null", "string"]
+    },
+    "quickbooks_sync_message": {
+      "type": ["null", "string"]
+    },
+    "quickbooks_sync_datetime": {
+      "type": ["null", "string"]
+    },
+    "custom_order_print_id": {
+      "type": ["null", "string"]
+    },
+    "custom_invoice_print_id": {
+      "type": ["null", "string"]
+    },
+    "custom_pick_ticket_print_id": {
+      "type": ["null", "string"]
+    },
+    "custom_credit_memo_print_id": {
+      "type": ["null", "string"]
+    },
+    "joor_synced": {
+      "type": ["null", "string"]
+    },
+    "priority": {
+      "type": ["null", "string"]
+    },
+    "last_modified_time": {
+      "type": ["null", "string"],
+      "format": "date-time"
+    },
+    "salespeople": {
+      "type": ["null", "array"],
+      "items": {
+        "type": ["null", "object"],
+        "properties": {
+          "id": {
+            "type": ["null", "string"]
+          },
+          "salesperson_id": {
+            "type": ["null", "string"]
+          },
+          "customer_id": {
+            "type": ["null", "string"]
+          },
+          "rate": {
+            "type": ["null", "string"]
+          },
+          "name": {
+            "type": ["null", "string"]
+          }
+        }
+      }
+    },
+    "people": {
+      "type": ["null", "array"],
+      "items": {
+        "type": ["null", "object"],
+        "properties": {
+          "id": {
+            "type": ["null", "string"]
+          },
+          "currency_id": {
+            "type": ["null", "string"]
+          },
+          "first_name": {
+            "type": ["null", "string"]
+          },
+          "last_name": {
+            "type": ["null", "string"]
+          },
+          "position": {
+            "type": ["null", "string"]
+          },
+          "phone": {
+            "type": ["null", "string"]
+          },
+          "fax": {
+            "type": ["null", "string"]
+          },
+          "email": {
+            "type": ["null", "string"]
+          },
+          "is_main_contact": {
+            "type": ["null", "string"]
+          }
+        }
+      }
+    },
+    "currency_name": {
+      "type": ["null", "string"]
+    }
+  }
+}

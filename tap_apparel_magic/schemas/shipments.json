@@ -1,0 +1,173 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": ["null", "string"]
+    },
+    "customer_id": {
+      "type": ["null", "string"]
+    },
+    "date": {
+      "type": ["null", "string"]
+    },
+    "currency_id": {
+      "type": ["null", "string"]
+    },
+    "currency_rate": {
+      "type": ["null", "string"]
+    },
+    "bill_of_lading": {
+      "type": ["null", "string"]
+    },
+    "tracking_number": {
+      "type": ["null", "string"]
+    },
+    "selected_pick_ticket_ids": {
+      "type": ["null", "string"]
+    },
+    "notes": {
+      "type": ["null", "string"]
+    },
+    "qty": {
+      "type": ["null", "string"]
+    },
+    "qty_boxes": {
+      "type": ["null", "string"]
+    },
+    "weight": {
+      "type": ["null", "string"]
+    },
+    "amount_freight": {
+      "type": ["null", "number"]
+    },
+    "freight_taxable": {
+      "type": ["null", "number"]
+    },
+    "void": {
+      "type": ["null", "number"]
+    },
+    "invoice_id": {
+      "type": ["null", "number"]
+    },
+    "is_locked": {
+      "type": ["null", "number"]
+    },
+    "shipstation_id": {
+      "type": ["null", "number"]
+    },
+    "shipstation_key": {
+      "type": ["null", "number"]
+    },
+    "shipstation_synced": {
+      "type": ["null", "number"]
+    },
+    "ship_via": {
+      "type": ["null", "number"]
+    },
+    "customer_name": {
+      "type": ["null", "number"]
+    },
+    "name": {
+      "type": ["null", "number"]
+    },
+    "address_1": {
+      "type": ["null", "number"]
+    },
+    "address_2": {
+      "type": ["null", "number"]
+    },
+    "city": {
+      "type": ["null", "number"]
+    },
+    "state": {
+      "type": ["null", "number"]
+    },
+    "postal_code": {
+      "type": ["null", "number"]
+    },
+    "country": {
+      "type": ["null", "number"]
+    },
+    "last_modified_time": {
+      "type": ["null", "number"],
+      "format": "date-time"
+    },
+    "boxes": {
+      "type": ["null", "array"],
+      "items": {
+        "type": ["null", "object"],
+        "propeties": {
+          "id": {
+            "type": ["null", "number"]
+          },
+          "shipment_id": {
+            "type": ["null", "number"]
+          },
+          "qty": {
+            "type": ["null", "number"]
+          },
+          "ucc": {
+            "type": ["null", "number"]
+          },
+          "box_number": {
+            "type": ["null", "number"]
+          },
+          "weight": {
+            "type": ["null", "number"]
+          },
+          "box_items": {
+            "type": ["null", "array"],
+            "items": {
+              "type": ["null", "object"],
+              "propeties": {
+                "id": {
+                  "type": ["null", "number"]
+                },
+                "box_id": {
+                  "type": ["null", "number"]
+                },
+                "pick_ticket_item_id": {
+                  "type": ["null", "number"]
+                },
+                "qty": {
+                  "type": ["null", "number"]
+                },
+                "weight": {
+                  "type": ["null", "number"]
+                },
+                "product_id": {
+                  "type": ["null", "number"]
+                },
+                "attr_2": {
+                  "type": ["null", "number"]
+                },
+                "attr_3": {
+                  "type": ["null", "number"]
+                },
+                "size": {
+                  "type": ["null", "number"]
+                },
+                "style_number": {
+                  "type": ["null", "number"]
+                },
+                "description": {
+                  "type": ["null", "number"]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "print_url": {
+      "type": ["null", "number"]
+    },
+    "currency_name": {
+      "type": ["null", "number"]
+    },
+    "foreign_amount_freight": {
+      "type": ["null", "number"]
+    }
+  }
+}

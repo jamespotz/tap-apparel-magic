@@ -1,0 +1,195 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "sku_id": {
+      "type": ["null", "string"]
+    },
+    "product_id": {
+      "type": ["null", "string"]
+    },
+    "style_number": {
+      "type": ["null", "string"]
+    },
+    "attr_2": {
+      "type": ["null", "string"]
+    },
+    "attr_3": {
+      "type": ["null", "string"]
+    },
+    "size": {
+      "type": ["null", "string"]
+    },
+    "size_position": {
+      "type": ["null", "string"]
+    },
+    "sku_concat": {
+      "type": ["null", "string"]
+    },
+    "qty_inventory": {
+      "type": ["null", "string"]
+    },
+    "qty_avail_sell": {
+      "type": ["null", "string"]
+    },
+    "qty_alloc": {
+      "type": ["null", "string"]
+    },
+    "qty_avail_alloc": {
+      "type": ["null", "string"]
+    },
+    "qty_open_wip": {
+      "type": ["null", "string"]
+    },
+    "qty_open_po": {
+      "type": ["null", "string"]
+    },
+    "qty_open_po_no_proj": {
+      "type": ["null", "string"]
+    },
+    "qty_otr": {
+      "type": ["null", "string"]
+    },
+    "qty_in_transit": {
+      "type": ["null", "string"]
+    },
+    "qty_open_sales": {
+      "type": ["null", "string"]
+    },
+    "qty_picked": {
+      "type": ["null", "string"]
+    },
+    "qty_invoiced": {
+      "type": ["null", "string"]
+    },
+    "qty_authorized_to_return": {
+      "type": ["null", "string"]
+    },
+    "qty_credited": {
+      "type": ["null", "string"]
+    },
+    "qty_received": {
+      "type": ["null", "string"]
+    },
+    "qty_issued": {
+      "type": ["null", "string"]
+    },
+    "qty_returned": {
+      "type": ["null", "string"]
+    },
+    "qty_required_comp": {
+      "type": ["null", "string"]
+    },
+    "qty_required_bundles": {
+      "type": ["null", "string"]
+    },
+    "qty_min_reorder": {
+      "type": ["null", "string"]
+    },
+    "qty_min_inventory": {
+      "type": ["null", "string"]
+    },
+    "active": {
+      "type": ["null", "string"]
+    },
+    "upc_11": {
+      "type": ["null", "string"]
+    },
+    "upc_display": {
+      "type": ["null", "string"]
+    },
+    "price": {
+      "type": ["null", "string"]
+    },
+    "retail_price": {
+      "type": ["null", "string"]
+    },
+    "cost": {
+      "type": ["null", "string"]
+    },
+    "cost_base": {
+      "type": ["null", "string"]
+    },
+    "cost_mfg": {
+      "type": ["null", "string"]
+    },
+    "cost_historical_wa": {
+      "type": ["null", "string"]
+    },
+    "vendor_cost_base": {
+      "type": ["null", "string"]
+    },
+    "price_offset": {
+      "type": ["null", "string"]
+    },
+    "retail_price_offset": {
+      "type": ["null", "string"]
+    },
+    "cost_offset": {
+      "type": ["null", "string"]
+    },
+    "vendor_cost_offset": {
+      "type": ["null", "string"]
+    },
+    "sku_alt": {
+      "type": ["null", "string"]
+    },
+    "analysis_code": {
+      "type": ["null", "string"]
+    },
+    "weight": {
+      "type": ["null", "string"]
+    },
+    "weight_offset": {
+      "type": ["null", "string"]
+    },
+    "location": {
+      "type": ["null", "string"]
+    },
+    "magento_product_id": {
+      "type": ["null", "string"]
+    },
+    "magento_pircture_id": {
+      "type": ["null", "string"]
+    },
+    "magento_last_qty": {
+      "type": ["null", "string"]
+    },
+    "magento_last_price": {
+      "type": ["null", "string"]
+    },
+    "magento_sync": {
+      "type": ["null", "string"]
+    },
+    "magento_sync_timestamp": {
+      "type": ["null", "string"]
+    },
+    "nrf_size": {
+      "type": ["null", "string"]
+    },
+    "is_inventory_tracked": {
+      "type": ["null", "string"]
+    },
+    "joor_sync": {
+      "type": ["null", "string"]
+    },
+    "is_bundle": {
+      "type": ["null", "string"]
+    },
+    "attr_2_name": {
+      "type": ["null", "string"]
+    },
+    "attr_3_name": {
+      "type": ["null", "string"]
+    },
+    "product_attribute_id": {
+      "type": ["null", "string"]
+    },
+    "deliveryinv": {
+      "type": ["null", "string"]
+    },
+    "us_size": {
+      "type": ["null", "string"]
+    }
+  }
+}
