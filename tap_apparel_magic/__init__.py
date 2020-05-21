@@ -194,7 +194,11 @@ def sync(state, catalog):
     """ Sync data from tap source """
     # Loop over selected streams in catalog
     counts = {}
-    start_time = time.process_time()
+    STATE = {}
+
+    if state:
+        STATE.update(state)
+
     for stream in catalog.get_selected_streams(state):
         LOGGER.info("Syncing stream: %s", stream.tap_stream_id)
         counts[stream.tap_stream_id] = 0
@@ -239,17 +243,13 @@ def sync(state, catalog):
                 page_number += 1
 
         # update bookmark to the latest value
-        singer.write_state({stream.tap_stream_id: {
-            bookmark_column: last_update
-        }})
+        STATE = singer.write_bookmark(STATE, stream_id, bookmark_column, last_update)
 
-        LOGGER.info('----------------------')
-        for stream_id, stream_count in counts.items():
-            LOGGER.info('%s: %d', stream_id, stream_count)
-        LOGGER.info('----------------------')
-
-    elapsed = time.process_time() - start_time
-    LOGGER.info('Process time: %s', elapsed)
+    singer.write_state(STATE)
+    LOGGER.info('----------------------')
+    for stream_id, stream_count in counts.items():
+        LOGGER.info('%s: %d', stream_id, stream_count)
+    LOGGER.info('----------------------')
 
 
 @utils.handle_top_exception(LOGGER)
