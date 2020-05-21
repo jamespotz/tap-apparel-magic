@@ -243,7 +243,7 @@ def sync(state, catalog):
                 page_number += 1
 
         # update bookmark to the latest value
-        STATE = singer.write_bookmark(STATE, stream_id, bookmark_column, last_update)
+        STATE = singer.write_bookmark(STATE, stream.tap_stream_id, bookmark_column, last_update)
 
     singer.write_state(STATE)
     LOGGER.info('----------------------')
