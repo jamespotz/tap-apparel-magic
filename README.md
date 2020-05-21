@@ -13,7 +13,7 @@ This tap:
   - Orders
   - Products
   - Vendors
-  - Invetories
+  - Inventory
   - Credit Memos
   - Shipments
   - Product Attributes
