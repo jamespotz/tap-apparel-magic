@@ -142,7 +142,7 @@ def get_start(state, tap_stream_id, bookmark_key):
     if current_bookmark is None:
         # Records with last_modified_time
         if tap_stream_id in WITH_LAST_MODIFIED_TIME:
-            return datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+            return datetime.datetime(2000,1,1).strftime('%Y-%m-%dT%H:%M:%SZ')
         # This are records without last_modified_time
         return 1
 
