@@ -201,59 +201,6 @@
       "type": ["null", "string"],
       "format": "date-time"
     },
-    "size_range_info": {
-      "type": ["null", "object"],
-      "properties": {
-        "size_01": {
-          "type": ["null", "string"]
-        },
-        "size_02": {
-          "type": ["null", "string"]
-        },
-        "size_03": {
-          "type": ["null", "string"]
-        },
-        "size_04": {
-          "type": ["null", "string"]
-        },
-        "size_05": {
-          "type": ["null", "string"]
-        },
-        "size_06": {
-          "type": ["null", "string"]
-        },
-        "size_07": {
-          "type": ["null", "string"]
-        },
-        "size_08": {
-          "type": ["null", "string"]
-        },
-        "size_09": {
-          "type": ["null", "string"]
-        },
-        "size_10": {
-          "type": ["null", "string"]
-        },
-        "size_11": {
-          "type": ["null", "string"]
-        },
-        "size_12": {
-          "type": ["null", "string"]
-        },
-        "size_13": {
-          "type": ["null", "string"]
-        },
-        "size_14": {
-          "type": ["null", "string"]
-        },
-        "size_15": {
-          "type": ["null", "string"]
-        },
-        "size_16": {
-          "type": ["null", "string"]
-        }
-      }
-    },
     "images": {
       "type": ["null", "array"],
       "items": {
