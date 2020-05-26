@@ -45,7 +45,7 @@
       "type": ["null", "string"]
     },
     "void": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "invoice_id": {
       "type": ["null", "string"]
