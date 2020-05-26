@@ -42,117 +42,117 @@
       "type": ["null", "number"]
     },
     "freight_taxable": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "void": {
       "type": ["null", "number"]
     },
     "invoice_id": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "is_locked": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "shipstation_id": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "shipstation_key": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "shipstation_synced": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "ship_via": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "customer_name": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "name": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "address_1": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "address_2": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "city": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "state": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "postal_code": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "country": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "last_modified_time": {
-      "type": ["null", "number"],
+      "type": ["null", "string"],
       "format": "date-time"
     },
     "boxes": {
       "type": ["null", "array"],
       "items": {
         "type": ["null", "object"],
-        "propeties": {
+        "properties": {
           "id": {
-            "type": ["null", "number"]
+            "type": ["null", "string"]
           },
           "shipment_id": {
-            "type": ["null", "number"]
+            "type": ["null", "string"]
           },
           "qty": {
-            "type": ["null", "number"]
+            "type": ["null", "string"]
           },
           "ucc": {
-            "type": ["null", "number"]
+            "type": ["null", "string"]
           },
           "box_number": {
-            "type": ["null", "number"]
+            "type": ["null", "string"]
           },
           "weight": {
-            "type": ["null", "number"]
+            "type": ["null", "string"]
           },
           "box_items": {
             "type": ["null", "array"],
             "items": {
               "type": ["null", "object"],
-              "propeties": {
+              "properties": {
                 "id": {
-                  "type": ["null", "number"]
+                  "type": ["null", "string"]
                 },
                 "box_id": {
-                  "type": ["null", "number"]
+                  "type": ["null", "string"]
                 },
                 "pick_ticket_item_id": {
-                  "type": ["null", "number"]
+                  "type": ["null", "string"]
                 },
                 "qty": {
-                  "type": ["null", "number"]
+                  "type": ["null", "string"]
                 },
                 "weight": {
-                  "type": ["null", "number"]
+                  "type": ["null", "string"]
                 },
                 "product_id": {
-                  "type": ["null", "number"]
+                  "type": ["null", "string"]
                 },
                 "attr_2": {
-                  "type": ["null", "number"]
+                  "type": ["null", "string"]
                 },
                 "attr_3": {
-                  "type": ["null", "number"]
+                  "type": ["null", "string"]
                 },
                 "size": {
-                  "type": ["null", "number"]
+                  "type": ["null", "string"]
                 },
                 "style_number": {
-                  "type": ["null", "number"]
+                  "type": ["null", "string"]
                 },
                 "description": {
-                  "type": ["null", "number"]
+                  "type": ["null", "string"]
                 }
               }
             }
@@ -161,13 +161,13 @@
       }
     },
     "print_url": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "currency_name": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     },
     "foreign_amount_freight": {
-      "type": ["null", "number"]
+      "type": ["null", "string"]
     }
   }
 }

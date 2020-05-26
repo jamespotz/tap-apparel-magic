@@ -1,0 +1,75 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": ["null", "string"]
+    },
+    "name": {
+      "type": ["null", "string"]
+    },
+    "display_name_override": {
+      "type": ["null", "string"]
+    },
+    "is_main_division": {
+      "type": ["null", "string"]
+    },
+    "address_1": {
+      "type": ["null", "string"]
+    },
+    "address_2": {
+      "type": ["null", "string"]
+    },
+    "city": {
+      "type": ["null", "string"]
+    },
+    "state": {
+      "type": ["null", "string"]
+    },
+    "postal_code": {
+      "type": ["null", "string"]
+    },
+    "phone": {
+      "type": ["null", "string"]
+    },
+    "fax": {
+      "type": ["null", "string"]
+    },
+    "email": {
+      "type": ["null", "string"]
+    },
+    "website": {
+      "type": ["null", "string"]
+    },
+    "gl_sales": {
+      "type": ["null", "string"]
+    },
+    "gl_sales_discount": {
+      "type": ["null", "string"]
+    },
+    "gl_freight": {
+      "type": ["null", "string"]
+    },
+    "gl_tax": {
+      "type": ["null", "string"]
+    },
+    "gl_returns": {
+      "type": ["null", "string"]
+    },
+    "gl_damages": {
+      "type": ["null", "string"]
+    },
+    "gl_inventory": {
+      "type": ["null", "string"]
+    },
+    "gl_cogs": {
+      "type": ["null", "string"]
+    },
+    "gl_customer_credits": {
+      "type": ["null", "string"]
+    },
+    "gl_misc_charges": {
+      "type": ["null", "string"]
+    }
+  }
+}

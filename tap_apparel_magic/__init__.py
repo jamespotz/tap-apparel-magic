@@ -31,7 +31,7 @@ CONFIG = {
 }
 
 
-AUTH_WITH_PAGINATION = "token={0}&time={1}&pagination[page_size]=1000&"\
+AUTH_WITH_PAGINATION = "token={0}&time={1}&pagination[page_size]=100&"\
                        "pagination[page_number]={2}"
 
 
