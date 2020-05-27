@@ -65,7 +65,9 @@ ENDPOINTS = {
     "payments": f"/payments?{AUTH_WITH_PAGINATION}&parameters[0][field]="
                 "payment_id&parameters[0][operator]=>=&"
                 "parameters[0][value]={3}",
-
+    "divisions": f"/divisions?{AUTH_WITH_PAGINATION}&parameters[0][field]="
+                "id&parameters[0][operator]=>=&"
+                "parameters[0][value]={3}",
 }
 
 
@@ -80,7 +82,8 @@ WITH_LAST_MODIFIED_TIME = [
 
 WITH_ID_ONLY = {
     "size_ranges",
-    "product_attributes"
+    "product_attributes",
+    "divisions"
 }
 
 
