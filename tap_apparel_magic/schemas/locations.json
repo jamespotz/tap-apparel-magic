@@ -1,0 +1,60 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "customer_id": {
+      "type": ["null", "string"]
+    },
+    "vendor_id": {
+      "type": ["null", "string"]
+    },
+    "ship_to_id": {
+      "type": ["null", "string"]
+    },
+    "name": {
+      "type": ["null", "string"]
+    },
+    "address_1": {
+      "type": ["null", "string"]
+    },
+    "address_2": {
+      "type": ["null", "string"]
+    },
+    "city": {
+      "type": ["null", "string"]
+    },
+    "state": {
+      "type": ["null", "string"]
+    },
+    "postal_code": {
+      "type": ["null", "string"]
+    },
+    "country": {
+      "type": ["null", "string"]
+    },
+    "phone": {
+      "type": ["null", "string"]
+    },
+    "email": {
+      "type": ["null", "string"]
+    },
+    "store_number": {
+      "type": ["null", "string"]
+    },
+    "dc_reference": {
+      "type": ["null", "string"]
+    },
+    "department_number": {
+      "type": ["null", "string"]
+    },
+    "tax_rate": {
+      "type": ["null", "string"]
+    },
+    "is_main_location": {
+      "type": ["null", "string"]
+    },
+    "edi_reference": {
+      "type": ["null", "string"]
+    }
+  }
+}

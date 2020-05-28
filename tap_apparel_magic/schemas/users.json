@@ -1,0 +1,165 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "user_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "last_login": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "last_ip": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "terms_accepted": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "is_admin": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "is_normal": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "no_cost": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "is_salesperson": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "is_buyer": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "is_vendor": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "notes": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "auto_bcc_email": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "last_layout": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "support_center_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "show_introduction": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "new_reports": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "new_nav": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "user_group_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "referrals_notification": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "google_calendar_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "google_calendar_auth_code": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "google_calendar_event_sync_types": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "google_calendar_add_reminders": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "num_referrals": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "display_mode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}

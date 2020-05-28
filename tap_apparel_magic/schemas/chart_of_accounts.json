@@ -1,0 +1,60 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "account_id": {
+      "type": ["null", "string"]
+    },
+    "gl_acct": {
+      "type": ["null", "string"]
+    },
+    "description": {
+      "type": ["null", "string"]
+    },
+    "type": {
+      "type": ["null", "string"]
+    },
+    "subtype": {
+      "type": ["null", "string"]
+    },
+    "payment_instructions": {
+      "type": ["null", "string"]
+    },
+    "is_bank_acct": {
+      "type": ["null", "string"]
+    },
+    "is_other": {
+      "type": ["null", "string"]
+    },
+    "is_checking_acct": {
+      "type": ["null", "string"]
+    },
+    "is_ar_acct": {
+      "type": ["null", "string"]
+    },
+    "is_ap_acct": {
+      "type": ["null", "string"]
+    },
+    "is_customer_credit_acct": {
+      "type": ["null", "string"]
+    },
+    "is_deposit_acct": {
+      "type": ["null", "string"]
+    },
+    "is_pl_acct": {
+      "type": ["null", "string"]
+    },
+    "is_bal_sheet_acct": {
+      "type": ["null", "string"]
+    },
+    "division_id": {
+      "type": ["null", "string"]
+    },
+    "xero_id": {
+      "type": ["null", "string"]
+    },
+    "xero_synced": {
+      "type": ["null", "string"]
+    }
+  }
+}

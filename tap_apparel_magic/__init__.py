@@ -66,8 +66,50 @@ ENDPOINTS = {
                 "payment_id&parameters[0][operator]=>=&"
                 "parameters[0][value]={3}",
     "divisions": f"/divisions?{AUTH_WITH_PAGINATION}&parameters[0][field]="
-                "id&parameters[0][operator]=>=&"
+                 "id&parameters[0][operator]=>=&"
+                 "parameters[0][value]={3}",
+    "currencies": f"/currencies?{AUTH_WITH_PAGINATION}&parameters[0][field]="
+                  "id&parameters[0][operator]=>=&"
+                  "parameters[0][value]={3}",
+    "chart_of_accounts": f"/chart_of_accounts?{AUTH_WITH_PAGINATION}&"
+                         "parameters[0][field]=account_id&"
+                         "parameters[0][operator]=>=&parameters[0][value]={3}",
+    "locations": f"/locations?{AUTH_WITH_PAGINATION}&"
+                 "parameters[0][field]=customer_id&parameters[0][operator]=>=&"
+                 "parameters[0][value]={3}",
+    "pick_tickets": f"/pick_tickets?{AUTH_WITH_PAGINATION}{LAST_MODIFIED_QUERY}",
+    "projects": f"/projects?{AUTH_WITH_PAGINATION}&"
+                "parameters[0][field]=project_id&parameters[0][operator]=>=&"
                 "parameters[0][value]={3}",
+    "receivers": f"/receivers?{AUTH_WITH_PAGINATION}{LAST_MODIFIED_QUERY}",
+    "return_authorizations": f"/return_authorizations?{AUTH_WITH_PAGINATION}&"
+                             "parameters[0][field]=return_authorization_id&"
+                             "parameters[0][operator]=>=&parameters[0][value]={3}",
+    "salespeople": f"/salespeople?{AUTH_WITH_PAGINATION}&"
+                   "parameters[0][field]=id&parameters[0][operator]=>=&"
+                   "parameters[0][value]={3}",
+    "ship_methods": f"/ship_methods?{AUTH_WITH_PAGINATION}&"
+                    "parameters[0][field]=id&parameters[0][operator]=>=&"
+                    "parameters[0][value]={3}",
+    "shipping_terms": f"/shipping_terms?{AUTH_WITH_PAGINATION}&"
+                      "parameters[0][field]=id&parameters[0][operator]=>=&"
+                      "parameters[0][value]={3}",
+    "sku_warehouse": f"/sku_warehouse?{AUTH_WITH_PAGINATION}&"
+                     "parameters[0][field]=id&parameters[0][operator]=>=&"
+                     "parameters[0][value]={3}",
+    "terms": f"/terms?{AUTH_WITH_PAGINATION}&"
+             "parameters[0][field]=id&parameters[0][operator]=>=&"
+             "parameters[0][value]={3}",
+    "users": f"/users?{AUTH_WITH_PAGINATION}&"
+             "parameters[0][field]=user_id&parameters[0][operator]=>=&"
+             "parameters[0][value]={3}",
+    "warehouses": f"/warehouses?{AUTH_WITH_PAGINATION}&"
+                  "parameters[0][field]=id&parameters[0][operator]=>=&"
+                  "parameters[0][value]={3}",
+    "events": f"/events?{AUTH_WITH_PAGINATION}{LAST_MODIFIED_QUERY}",
+    "order_items": f"/order_items?{AUTH_WITH_PAGINATION}&"
+                   "parameters[0][field]=id&parameters[0][operator]=>=&"
+                   "parameters[0][value]={3}",
 }
 
 
@@ -77,14 +119,34 @@ WITH_LAST_MODIFIED_TIME = [
     "products",
     "customers",
     "invoices",
-    "purchase_orders"
+    "purchase_orders",
+    "pick_tickets",
+    "events",
+    "receivers"
 ]
 
-WITH_ID_ONLY = {
+
+WITH_ID_ONLY = [
     "size_ranges",
     "product_attributes",
-    "divisions"
+    "divisions",
+    "currencies",
+    "salespeople",
+    "ship_methods",
+    "shipping_terms",
+    "sku_warehouse",
+    "terms",
+    "warehouses",
+    "order_items"
+]
+
+
+WITH_CUSTOM_REFERENCE = {
+    "inventory": "sku_id",
+    "chart_of_accounts": "account_id",
+    "locations": "customer_id"
 }
+
 
 
 def get_abs_path(path):
@@ -145,7 +207,7 @@ def get_start(state, tap_stream_id, bookmark_key):
     if current_bookmark is None:
         # Records with last_modified_time
         if tap_stream_id in WITH_LAST_MODIFIED_TIME:
-            return datetime.datetime(2000,1,1).strftime('%Y-%m-%dT%H:%M:%SZ')
+            return datetime.datetime(2000, 1, 1).strftime('%Y-%m-%dT%H:%M:%SZ')
         # This are records without last_modified_time
         return 1
 
@@ -168,9 +230,8 @@ def get_replication_key(stream_id, replication_key):
     if stream_id in WITH_ID_ONLY:
         return 'id'
 
-    # The Inventory stream uses sku_id as its primary key
-    if stream_id == 'inventory':
-        return 'sku_id'
+    if stream_id in WITH_CUSTOM_REFERENCE:
+        return WITH_CUSTOM_REFERENCE[stream_id]
 
     # vendor_id and credit_memo_id
     return f'{stream_id[:-1]}_id'
@@ -232,7 +293,11 @@ def sync(state, catalog):
                     # write one or more rows to the stream:
                     singer.write_records(stream.tap_stream_id, [row])
 
-                    if "last_modified_time" in row:
+                    if ("last_modified_time" in row and
+                            bookmark_column == 'last_modified_time'):
+                        if row["last_modified_time"] is None:
+                            continue
+
                         new_update_time = parser.parse(row["last_modified_time"])
                         old_update_time = parser.parse(last_update)
                         if new_update_time > old_update_time:

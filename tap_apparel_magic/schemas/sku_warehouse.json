@@ -1,0 +1,153 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "sku_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "warehouse_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "location": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "is_inventory_tracked": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_inventory": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_avail_sell": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_alloc": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_avail_alloc": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_open_wip": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_open_po": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_open_po_no_proj": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_otr": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_in_transit": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_open_sales": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_picked": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_invoiced": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_authorized_to_return": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_credited": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_received": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_issued": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_returned": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_required_comp": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_required_bundles": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}

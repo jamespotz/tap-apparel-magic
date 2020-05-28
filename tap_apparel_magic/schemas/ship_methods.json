@@ -1,0 +1,45 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "provider": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "num_days": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "shipstation_carrier": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "shipstation_service": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}

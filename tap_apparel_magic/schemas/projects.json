@@ -1,0 +1,140 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "project_id": {
+      "type": ["null", "string"]
+    },
+    "warehouse_id": {
+      "type": ["null", "string"]
+    },
+    "status": {
+      "type": ["null", "string"]
+    },
+    "date": {
+      "type": ["null", "string"]
+    },
+    "date_start": {
+      "type": ["null", "string"]
+    },
+    "date_due": {
+      "type": ["null", "string"]
+    },
+    "date_finished": {
+      "type": ["null", "string"]
+    },
+    "date_due_latest": {
+      "type": ["null", "string"]
+    },
+    "qty": {
+      "type": ["null", "string"]
+    },
+    "qty_open": {
+      "type": ["null", "string"]
+    },
+    "qty_received": {
+      "type": ["null", "string"]
+    },
+    "qty_cxl": {
+      "type": ["null", "string"]
+    },
+    "cost_labor_actual": {
+      "type": ["null", "string"]
+    },
+    "cost_labor_est": {
+      "type": ["null", "string"]
+    },
+    "cost_total_est": {
+      "type": ["null", "string"]
+    },
+    "cost_per_unit_actual": {
+      "type": ["null", "string"]
+    },
+    "amount_open": {
+      "type": ["null", "number"]
+    },
+    "amount_cxl": {
+      "type": ["null", "number"]
+    },
+    "division_id": {
+      "type": ["null", "string"]
+    },
+    "notes": {
+      "type": ["null", "string"]
+    },
+    "is_locked": {
+      "type": ["null", "string"]
+    },
+    "is_posted": {
+      "type": ["null", "string"]
+    },
+    "is_actualized": {
+      "type": ["null", "string"]
+    },
+    "project_items": {
+      "type": ["null", "array"],
+      "items": {
+        "type": ["null", "object"],
+        "properties": {
+          "id": {
+            "type": ["null", "string"]
+          },
+          "warehouse_id": {
+            "type": ["null", "string"]
+          },
+          "row_id": {
+            "type": ["null", "string"]
+          },
+          "project_id": {
+            "type": ["null", "string"]
+          },
+          "product_id": {
+            "type": ["null", "string"]
+          },
+          "attr_2": {
+            "type": ["null", "string"]
+          },
+          "attr_3": {
+            "type": ["null", "string"]
+          },
+          "size": {
+            "type": ["null", "string"]
+          },
+          "qty": {
+            "type": ["null", "string"]
+          },
+          "qty_open": {
+            "type": ["null", "string"]
+          },
+          "qty_cxl": {
+            "type": ["null", "string"]
+          },
+          "qty_received": {
+            "type": ["null", "string"]
+          },
+          "unit_cost": {
+            "type": ["null", "number"]
+          },
+          "amount": {
+            "type": ["null", "number"]
+          },
+          "sku_id": {
+            "type": ["null", "string"]
+          },
+          "error": {
+            "type": ["null", "string"]
+          },
+          "notes": {
+            "type": ["null", "string"]
+          },
+          "style_number": {
+            "type": ["null", "string"]
+          },
+          "description": {
+            "type": ["null", "string"]
+          }
+        }
+      }
+    }
+  }
+}

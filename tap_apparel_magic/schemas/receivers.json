@@ -1,0 +1,185 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "receiver_id": {
+      "type": ["null", "string"]
+    },
+    "warehouse_id": {
+      "type": ["null", "string"]
+    },
+    "purchase_order_id": {
+      "type": ["null", "string"]
+    },
+    "vendor_id": {
+      "type": ["null", "string"]
+    },
+    "date": {
+      "type": ["null", "string"]
+    },
+    "qty": {
+      "type": ["null", "string"]
+    },
+    "amount": {
+      "type": ["null", "string"]
+    },
+    "notes": {
+      "type": ["null", "string"]
+    },
+    "address_1": {
+      "type": ["null", "string"]
+    },
+    "address_2": {
+      "type": ["null", "string"]
+    },
+    "city": {
+      "type": ["null", "string"]
+    },
+    "state": {
+      "type": ["null", "string"]
+    },
+    "postal_code": {
+      "type": ["null", "string"]
+    },
+    "country": {
+      "type": ["null", "string"]
+    },
+    "phone": {
+      "type": ["null", "string"]
+    },
+    "division_id": {
+      "type": ["null", "string"]
+    },
+    "void": {
+      "type": ["null", "string"]
+    },
+    "tracking_number": {
+      "type": ["null", "string"]
+    },
+    "error": {
+      "type": ["null", "string"]
+    },
+    "is_posted": {
+      "type": ["null", "string"]
+    },
+    "receiver_items": {
+      "type": ["null", "array"],
+      "items": {
+        "type": ["null", "object"],
+        "properties": {
+          "id": {
+            "type": ["null", "string"]
+          },
+          "warehouse_id": {
+            "type": ["null", "string"]
+          },
+          "row_id": {
+            "type": ["null", "string"]
+          },
+          "po_row_id": {
+            "type": ["null", "string"]
+          },
+          "pj_row_id": {
+            "type": ["null", "string"]
+          },
+          "receiver_id": {
+            "type": ["null", "string"]
+          },
+          "purchase_order_id": {
+            "type": ["null", "string"]
+          },
+          "vendor_id": {
+            "type": ["null", "string"]
+          },
+          "product_id": {
+            "type": ["null", "string"]
+          },
+          "attr_2": {
+            "type": ["null", "string"]
+          },
+          "attr_3": {
+            "type": ["null", "string"]
+          },
+          "size": {
+            "type": ["null", "string"]
+          },
+          "qty": {
+            "type": ["null", "string"]
+          },
+          "qty_issued": {
+            "type": ["null", "string"]
+          },
+          "qty_returned": {
+            "type": ["null", "string"]
+          },
+          "qty_short": {
+            "type": ["null", "string"]
+          },
+          "qty_damaged": {
+            "type": ["null", "string"]
+          },
+          "qty_used": {
+            "type": ["null", "string"]
+          },
+          "unit_cost": {
+            "type": ["null", "string"]
+          },
+          "unit_cost_actualized": {
+            "type": ["null", "string"]
+          },
+          "amount": {
+            "type": ["null", "string"]
+          },
+          "sku_id": {
+            "type": ["null", "string"]
+          },
+          "sku_alt": {
+            "type": ["null", "string"]
+          },
+          "comment": {
+            "type": ["null", "string"]
+          },
+          "description": {
+            "type": ["null", "string"]
+          },
+          "duty_rate": {
+            "type": ["null", "string"]
+          },
+          "duty_amount": {
+            "type": ["null", "string"]
+          },
+          "cost_other": {
+            "type": ["null", "string"]
+          },
+          "whse_id": {
+            "type": ["null", "string"]
+          },
+          "lot_id": {
+            "type": ["null", "string"]
+          },
+          "is_inventory": {
+            "type": ["null", "string"]
+          },
+          "is_issue": {
+            "type": ["null", "string"]
+          },
+          "project_id": {
+            "type": ["null", "string"]
+          },
+          "upc": {
+            "type": ["null", "string"]
+          },
+          "error": {
+            "type": ["null", "string"]
+          },
+          "notes": {
+            "type": ["null", "string"]
+          },
+          "style_number": {
+            "type": ["null", "string"]
+          }
+        }
+      }
+    }
+  }
+}

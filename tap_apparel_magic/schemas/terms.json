@@ -1,0 +1,69 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "num_days": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "num_months": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "edi_terms_code": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "edi_terms_description": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "quickbooks_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "quickbooks_sync_status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "quickbooks_sync_message": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "quickbooks_Sync_datetime": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}

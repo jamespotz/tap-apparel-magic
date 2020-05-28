@@ -1,0 +1,225 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "date_start": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "warehouse_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "row_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "order_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "date_due": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_alloc": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_picked": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_open": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_shipped": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "qty_cxl": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "unit_price": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "amount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "amount_alloc": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "amount_open": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "amount_shipped": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "amount_cxl": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "is_taxable": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "sku_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "purchase_order_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "purchase_order_item_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "project_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "project_item_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "notes": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "production_notes": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "mark_for_store": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "retailer_sku": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ticketing": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "item_number": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "product_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "style_number": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "attr_2": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "attr_3": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "size": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "description": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}

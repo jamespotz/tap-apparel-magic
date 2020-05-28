@@ -1,0 +1,165 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "user_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "customer_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "vendor_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "product_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "order_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "pick_ticket_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "invoice_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "payment_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "return_authorization_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "credit_memo_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "project_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "purchase_order_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "receiver_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "transfer_receiver_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ap_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "title": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "date": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "date_due": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "time": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "time_due": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "description": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "notes": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "last_modified_time": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}

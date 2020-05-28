@@ -1,0 +1,367 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "pick_ticket_id": {
+      "type": ["null", "string"]
+    },
+    "invoice_id": {
+      "type": ["null", "string"]
+    },
+    "warehouse_id": {
+      "type": ["null", "string"]
+    },
+    "order_id": {
+      "type": ["null", "string"]
+    },
+    "customer_id": {
+      "type": ["null", "string"]
+    },
+    "customer_po": {
+      "type": ["null", "string"]
+    },
+    "date": {
+      "type": ["null", "string"]
+    },
+    "date_start": {
+      "type": ["null", "string"]
+    },
+    "date_due": {
+      "type": ["null", "string"]
+    },
+    "salesperson": {
+      "type": ["null", "string"]
+    },
+    "commission_rate": {
+      "type": ["null", "string"]
+    },
+    "credit_status": {
+      "type": ["null", "string"]
+    },
+    "approval_number": {
+      "type": ["null", "string"]
+    },
+    "qty": {
+      "type": ["null", "string"]
+    },
+    "amount": {
+      "type": ["null", "number"]
+    },
+    "amount_subtotal": {
+      "type": ["null", "number"]
+    },
+    "amount_tax": {
+      "type": ["null", "number"]
+    },
+    "amount_tax_2": {
+      "type": ["null", "number"]
+    },
+    "amount_tax_total": {
+      "type": ["null", "number"]
+    },
+    "amount_taxable": {
+      "type": ["null", "number"]
+    },
+    "override_discount_amount": {
+      "type": ["null", "number"]
+    },
+    "pct_discount": {
+      "type": ["null", "string"]
+    },
+    "tax_rate": {
+      "type": ["null", "string"]
+    },
+    "tax_rate_2": {
+      "type": ["null", "string"]
+    },
+    "tax_first_tax_amount": {
+      "type": ["null", "number"]
+    },
+    "override_tax_amount": {
+      "type": ["null", "number"]
+    },
+    "amount_freight": {
+      "type": ["null", "number"]
+    },
+    "freight_taxable": {
+      "type": ["null", "string"]
+    },
+    "notes": {
+      "type": ["null", "string"]
+    },
+    "private_notes": {
+      "type": ["null", "string"]
+    },
+    "ship_to_id": {
+      "type": ["null", "string"]
+    },
+    "address_1": {
+      "type": ["null", "string"]
+    },
+    "address_2": {
+      "type": ["null", "string"]
+    },
+    "city": {
+      "type": ["null", "string"]
+    },
+    "state": {
+      "type": ["null", "string"]
+    },
+    "postal_code": {
+      "type": ["null", "string"]
+    },
+    "country": {
+      "type": ["null", "string"]
+    },
+    "phone": {
+      "type": ["null", "string"]
+    },
+    "commission": {
+      "type": ["null", "string"]
+    },
+    "status": {
+      "type": ["null", "string"]
+    },
+    "ship_via": {
+      "type": ["null", "string"]
+    },
+    "division_id": {
+      "type": ["null", "string"]
+    },
+    "void": {
+      "type": ["null", "string"]
+    },
+    "is_locked": {
+      "type": ["null", "string"]
+    },
+    "weight": {
+      "type": ["null", "string"]
+    },
+    "terms_id": {
+      "type": ["null", "string"]
+    },
+    "shipping_terms_id": {
+      "type": ["null", "string"]
+    },
+    "shipping_info": {
+      "type": ["null", "string"]
+    },
+    "error": {
+      "type": ["null", "string"]
+    },
+    "tracking_number": {
+      "type": ["null", "string"]
+    },
+    "ups_batch": {
+      "type": ["null", "string"]
+    },
+    "description_misc": {
+      "type": ["null", "string"]
+    },
+    "qty_misc": {
+      "type": ["null", "string"]
+    },
+    "rate_misc": {
+      "type": ["null", "string"]
+    },
+    "amount_misc": {
+      "type": ["null", "number"]
+    },
+    "is_printed": {
+      "type": ["null", "string"]
+    },
+    "is_emailed": {
+      "type": ["null", "string"]
+    },
+    "shipstation_id": {
+      "type": ["null", "string"]
+    },
+    "shipstation_key": {
+      "type": ["null", "string"]
+    },
+    "shipstation_synced": {
+      "type": ["null", "string"]
+    },
+    "ar_acct": {
+      "type": ["null", "string"]
+    },
+    "mark_for_store": {
+      "type": ["null", "string"]
+    },
+    "customer_name": {
+      "type": ["null", "string"]
+    },
+    "ship_to_name": {
+      "type": ["null", "string"]
+    },
+    "last_modified_time": {
+      "type": ["null", "string"]
+    },
+    "pick_ticket_items": {
+      "type": ["null", "array"],
+      "items": {
+        "type": ["null", "object"],
+        "properties": {
+          "id": {
+            "type": ["null", "string"]
+          },
+          "warehouse_id": {
+            "type": ["null", "string"]
+          },
+          "row_id": {
+            "type": ["null", "string"]
+          },
+          "pick_ticket_id": {
+            "type": ["null", "string"]
+          },
+          "order_id": {
+            "type": ["null", "string"]
+          },
+          "order_item_id": {
+            "type": ["null", "string"]
+          },
+          "invoice_item_id": {
+            "type": ["null", "string"]
+          },
+          "qty": {
+            "type": ["null", "string"]
+          },
+          "unit_price": {
+            "type": ["null", "number"]
+          },
+          "amount": {
+            "type": ["null", "number"]
+          },
+          "sku_id": {
+            "type": ["null", "string"]
+          },
+          "error": {
+            "type": ["null", "string"]
+          },
+          "is_taxable": {
+            "type": ["null", "string"]
+          },
+          "notes": {
+            "type": ["null", "string"]
+          },
+          "product_id": {
+            "type": ["null", "string"]
+          },
+          "attr_2": {
+            "type": ["null", "string"]
+          },
+          "attr_3": {
+            "type": ["null", "string"]
+          },
+          "size": {
+            "type": ["null", "string"]
+          },
+          "style_number": {
+            "type": ["null", "string"]
+          },
+          "description": {
+            "type": ["null", "string"]
+          },
+          "upc_delivery": {
+            "type": ["null", "string"]
+          },
+          "sku_alt": {
+            "type": ["null", "string"]
+          },
+          "foreign_unit_price": {
+            "type": ["null", "string"]
+          },
+          "foreign_amount": {
+            "type": ["null", "string"]
+          }
+        }
+      }
+    },
+    "print_url": {
+      "type": ["null", "string"]
+    },
+    "misc_charges": {
+      "type": ["null", "array"],
+      "items": {
+        "type": ["null", "object"],
+        "properties": {
+          "id": {
+            "type": ["null", "string"]
+          },
+          "order_id": {
+            "type": ["null", "string"]
+          },
+          "pick_ticket_id": {
+            "type": ["null", "string"]
+          },
+          "invoice_id": {
+            "type": ["null", "string"]
+          },
+          "return_authorization_id": {
+            "type": ["null", "string"]
+          },
+          "credit_memo_id": {
+            "type": ["null", "string"]
+          },
+          "gl_acct": {
+            "type": ["null", "string"]
+          },
+          "description": {
+            "type": ["null", "string"]
+          },
+          "qty": {
+            "type": ["null", "string"]
+          },
+          "rate": {
+            "type": ["null", "string"]
+          },
+          "amount": {
+            "type": ["null", "number"]
+          },
+          "foreign_amount": {
+            "type": ["null", "string"]
+          }
+        }
+      }
+    },
+    "currency_name": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_subtotal": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_tax": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_tax_2": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_tax_total": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_taxable": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_discount": {
+      "type": ["null", "string"]
+    },
+    "foreign_override_discount_amount": {
+      "type": ["null", "string"]
+    },
+    "foreign_tax_first_tax_amount": {
+      "type": ["null", "string"]
+    },
+    "foreign_override_tax_amount": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_freight": {
+      "type": ["null", "string"]
+    },
+    "foreign_amount_misc": {
+      "type": ["null", "string"]
+    }
+  }
+}

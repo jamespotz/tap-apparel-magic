@@ -1,0 +1,30 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": ["null", "string"]
+    },
+    "name": {
+      "type": ["null", "string"]
+    },
+    "is_default": {
+      "type": ["null", "string"]
+    },
+    "symbol": {
+      "type": ["null", "string"]
+    },
+    "cent_separator": {
+      "type": ["null", "string"]
+    },
+    "thousand_separator": {
+      "type": ["null", "string"]
+    },
+    "rate": {
+      "type": ["null", "string"]
+    },
+    "last_updated": {
+      "type": ["null", "string"]
+    }
+  }
+}
