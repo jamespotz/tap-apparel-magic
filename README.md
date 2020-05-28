@@ -19,6 +19,24 @@ This tap:
   - Product Attributes
   - Size Ranges
   - Payments
+  - Order Items
+  - Return Authorizations
+  - Salespeople
+  - Locations
+  - Receivers
+  - Currencies
+  - Projects
+  - Sku Warehouse
+  - Warehouses
+  - Terms
+  - Users
+  - Events
+  - Pick Tickets
+  - Chart Of Accounts
+  - Shipping Terms
+  - Ship Methods
+  - Credit Memos
+  - Divisions
 - Outputs the schema for each resource
 - Incrementally pulls data based on the input state
 
