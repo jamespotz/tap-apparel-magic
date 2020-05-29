@@ -63,7 +63,7 @@ The `url` is your ApparellMagic shop json endpoint.
 
 The `token` is your ApparellMagic shop token.
 
-The `start date` will determine how far back in your order history the tap will go
+The `start date` will determine how far back in your resource history the tap will go
 - this is only relevant for the initial run, progress afterwards will be bookmarked
 
 3. Run the Tap in Discovery mode
