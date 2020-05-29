@@ -211,12 +211,12 @@ def get_endpoint(endpoint, kwargs):
         token, time_param, page_number, updated_time_or_id)
 
 
-def get_start(state, tap_stream_id, bookmark_key, config):
+def get_start(state, tap_stream_id, bookmark_key):
     current_bookmark = singer.get_bookmark(state, tap_stream_id, bookmark_key)
     if current_bookmark is None:
         # Records with last_modified_time
         if tap_stream_id in WITH_LAST_MODIFIED_TIME:
-            return config["start_date"]
+            return CONFIG["start_date"]
         # This are records without last_modified_time
         return 1
 
@@ -280,7 +280,7 @@ def sync(state, catalog):
                             stream.schema.to_dict(), stream.key_properties)
 
         bookmark_column = get_replication_key(stream.tap_stream_id, stream.replication_key)
-        start = get_start(state, stream.tap_stream_id, bookmark_column, config)
+        start = get_start(state, stream.tap_stream_id, bookmark_column)
         last_update = start
         page_number = 1
         with metrics.record_counter(stream.tap_stream_id) as counter:
