@@ -1,4 +1,5 @@
 {
   "url": "Apparel Magic Base URL",
-  "token": "Apparel Magic Token"
+  "token": "Apparel Magic Token",
+  "start_date": "ISO8601-Date-String"
 }

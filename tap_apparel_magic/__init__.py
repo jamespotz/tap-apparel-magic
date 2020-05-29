@@ -22,12 +22,13 @@ from singer import metadata, utils
 from singer.catalog import Catalog, CatalogEntry
 from singer.schema import Schema
 
-REQUIRED_CONFIG_KEYS = ["url", "token"]
+REQUIRED_CONFIG_KEYS = ["url", "token", "start_date"]
 LOGGER = singer.get_logger()
 
 CONFIG = {
     "url": None,
     "token": None,
+    "start_date": None,
 }
 
 
@@ -137,7 +138,9 @@ WITH_ID_ONLY = [
     "sku_warehouse",
     "terms",
     "warehouses",
-    "order_items"
+    "order_items",
+    "events",
+    "shipments"
 ]
 
 
@@ -170,6 +173,12 @@ def discover():
     for stream_id, schema in raw_schemas.items():
         stream_metadata = []
         key_properties = []
+        if stream_id in WITH_ID_ONLY:
+            key_properties.append("id")
+        elif stream_id in WITH_CUSTOM_REFERENCE:
+            key_properties.append(WITH_CUSTOM_REFERENCE[stream_id])
+        else:
+            key_properties.append(f'{stream_id[:-1]}_id')
         streams.append(
             CatalogEntry(
                 tap_stream_id=stream_id,
@@ -202,12 +211,12 @@ def get_endpoint(endpoint, kwargs):
         token, time_param, page_number, updated_time_or_id)
 
 
-def get_start(state, tap_stream_id, bookmark_key):
+def get_start(state, tap_stream_id, bookmark_key, config):
     current_bookmark = singer.get_bookmark(state, tap_stream_id, bookmark_key)
     if current_bookmark is None:
         # Records with last_modified_time
         if tap_stream_id in WITH_LAST_MODIFIED_TIME:
-            return datetime.datetime(2000, 1, 1).strftime('%Y-%m-%dT%H:%M:%SZ')
+            return config["start_date"]
         # This are records without last_modified_time
         return 1
 
@@ -271,7 +280,7 @@ def sync(state, catalog):
                             stream.schema.to_dict(), stream.key_properties)
 
         bookmark_column = get_replication_key(stream.tap_stream_id, stream.replication_key)
-        start = get_start(state, stream.tap_stream_id, bookmark_column)
+        start = get_start(state, stream.tap_stream_id, bookmark_column, config)
         last_update = start
         page_number = 1
         with metrics.record_counter(stream.tap_stream_id) as counter:
