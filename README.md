@@ -54,13 +54,17 @@ This tap:
 ```json
 {
   "url": "https://example.app.apparelmagic.com/api/json",
-  "token": "1234567890abcdefghijklmnop"
+  "token": "1234567890abcdefghijklmnop",
+  "start_date": "2000-01-01T00:00:00Z"
 }
 ```
 
 The `url` is your ApparellMagic shop json endpoint.
 
 The `token` is your ApparellMagic shop token.
+
+The `start date` will determine how far back in your order history the tap will go
+- this is only relevant for the initial run, progress afterwards will be bookmarked
 
 3. Run the Tap in Discovery mode
 
