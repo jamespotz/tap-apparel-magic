@@ -59,12 +59,12 @@ This tap:
 }
 ```
 
-The `url` is your ApparellMagic shop json endpoint.
+- The `url` is your ApparellMagic shop json endpoint.
 
-The `token` is your ApparellMagic shop token.
+- The `token` is your ApparellMagic shop token.
 
-The `start date` will determine how far back in your resource history the tap will go
-- this is only relevant for the initial run, progress afterwards will be bookmarked
+- The `start date` will determine how far back in your resource history the tap will go
+  - this is only relevant for the initial run, progress afterwards will be bookmarked
 
 3. Run the Tap in Discovery mode
 
@@ -72,7 +72,7 @@ The `start date` will determine how far back in your resource history the tap wi
   tap-apparel-magic --config config.json --discover
 ```
 
-See the Singer docs on discovery mode [here](https://github.com/singer-io/getting-started/blob/master/docs/DISCOVERY_MODE.md#discovery-mode).
+- See the Singer docs on discovery mode [here](https://github.com/singer-io/getting-started/blob/master/docs/DISCOVERY_MODE.md#discovery-mode).
 
 5. Run the Tap in Sync Mode
 ```sh
