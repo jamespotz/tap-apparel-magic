@@ -220,9 +220,6 @@ def get_start(state, tap_stream_id, bookmark_key):
         # This are records without last_modified_time
         return 1
 
-    if tap_stream_id not in WITH_LAST_MODIFIED_TIME:
-        return 1
-
     return current_bookmark
 
 
