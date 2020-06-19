@@ -18,7 +18,7 @@ import singer
 import singer.metrics as metrics
 from dateutil import parser
 from requests.auth import HTTPBasicAuth
-from singer import metadata, utils
+from singer import metadata, utils, Transformer
 from singer.catalog import Catalog, CatalogEntry
 from singer.schema import Schema
 
@@ -293,28 +293,31 @@ def sync(state, catalog):
                 tap_data = gen_request(stream.tap_stream_id, endpoint)
                 total_pages = tap_data["meta"]["pagination"]["total_pages"]
 
-                for row in tap_data["response"]:
-                    counter.increment()
-                    counts[stream.tap_stream_id] += 1
-                    # write one or more rows to the stream:
-                    singer.write_records(stream.tap_stream_id, [row])
+                with Transformer() as transformer:
+                    for row in tap_data["response"]:
+                        counter.increment()
+                        counts[stream.tap_stream_id] += 1
+                        # write one or more rows to the stream:
+                        record_schema = stream.schema
+                        row = transformer.transform(row, record_schema.to_dict())
+                        singer.write_records(stream.tap_stream_id, [row])
 
-                    if ("last_modified_time" in row and
-                            bookmark_column == 'last_modified_time'):
-                        if row["last_modified_time"] is None:
-                            continue
+                        if ("last_modified_time" in row and
+                                bookmark_column == 'last_modified_time'):
+                            if row["last_modified_time"] is None:
+                                continue
 
-                        new_update_time = parser.parse(row["last_modified_time"])
-                        old_update_time = parser.parse(last_update)
-                        if new_update_time > old_update_time:
-                            last_update = row["last_modified_time"]
-                    else:
-                        last_update = row[bookmark_column]
+                            new_update_time = parser.parse(row["last_modified_time"])
+                            old_update_time = parser.parse(last_update)
+                            if new_update_time > old_update_time:
+                                last_update = row["last_modified_time"]
+                        else:
+                            last_update = row[bookmark_column]
 
-                if page_number >= int(total_pages):
-                    # Weve reach the end of the page
-                    break
-                page_number += 1
+                    if page_number >= int(total_pages):
+                        # Weve reach the end of the page
+                        break
+                    page_number += 1
 
         # update bookmark to the latest value
         new_state = singer.write_bookmark(new_state, stream.tap_stream_id,
