@@ -1,322 +1,322 @@
 {
-  "type": ["null", "object"],
-  "additionalProperties": true,
-  "properties": {
-    "product_id": {
-      "type": ["null", "string"]
-    },
-    "is_product": {
-      "type": ["null", "string"]
-    },
-    "is_component": {
-      "type": ["null", "string"]
-    },
-    "is_bundle": {
-      "type": ["null", "string"]
-    },
-    "is_virtual_bundle": {
-      "type": ["null", "string"]
-    },
-    "is_inventory_tracked": {
-      "type": ["null", "string"]
-    },
-    "style_number": {
-      "type": ["null", "string"]
-    },
-    "alt_code": {
-      "type": ["null", "string"]
-    },
-    "description": {
-      "type": ["null", "string"]
-    },
-    "category": {
-      "type": ["null", "string"]
-    },
-    "class": {
-      "type": ["null", "string"]
-    },
-    "group": {
-      "type": ["null", "string"]
-    },
-    "size_range_id": {
-      "type": ["null", "string"]
-    },
-    "cost": {
-      "type": ["null", "string"]
-    },
-    "price": {
-      "type": ["null", "string"]
-    },
-    "retail_price": {
-      "type": ["null", "string"]
-    },
-    "margin": {
-      "type": ["null", "string"]
-    },
-    "cost_labor": {
-      "type": ["null", "string"]
-    },
-    "cost_materials": {
-      "type": ["null", "string"]
-    },
-    "cost_base": {
-      "type": ["null", "string"]
-    },
-    "cost_misc": {
-      "type": ["null", "string"]
-    },
-    "cost_landed": {
-      "type": ["null", "string"]
-    },
-    "duty_rate": {
-      "type": ["null", "string"]
-    },
-    "cost_duty": {
-      "type": ["null", "string"]
-    },
-    "cost_freight": {
-      "type": ["null", "string"]
-    },
-    "cost_auto": {
-      "type": ["null", "string"]
-    },
-    "vendor_cost_base": {
-      "type": ["null", "string"]
-    },
-    "vendor_currency_id": {
-      "type": ["null", "string"]
-    },
-    "origin": {
-      "type": ["null", "string"]
-    },
-    "content": {
-      "type": ["null", "string"]
-    },
-    "weight": {
-      "type": ["null", "string"]
-    },
-    "box_size": {
-      "type": ["null", "string"]
-    },
-    "tariff_code": {
-      "type": ["null", "string"]
-    },
-    "mid_code": {
-      "type": ["null", "string"]
-    },
-    "is_taxable": {
-      "type": ["null", "string"]
-    },
-    "notes": {
-      "type": ["null", "string"]
-    },
-    "vendor_id": {
-      "type": ["null", "string"]
-    },
-    "season": {
-      "type": ["null", "string"]
-    },
-    "price_break_id": {
-      "type": ["null", "string"]
-    },
-    "care_instructions": {
-      "type": ["null", "string"]
-    },
-    "unit_of_measure": {
-      "type": ["null", "string"]
-    },
-    "lead_time": {
-      "type": ["null", "string"]
-    },
-    "buyer_filter": {
-      "type": ["null", "string"]
-    },
-    "web_title": {
-      "type": ["null", "string"]
-    },
-    "web_description": {
-      "type": ["null", "string"]
-    },
-    "magento_config_product_id": {
-      "type": ["null", "string"]
-    },
-    "magento_category_id": {
-      "type": ["null", "string"]
-    },
-    "magento_attribute_set_id": {
-      "type": ["null", "string"]
-    },
-    "magento_last_price": {
-      "type": ["null", "string"]
-    },
-    "magento_sync": {
-      "type": ["null", "string"]
-    },
-    "magento_sync_timestamp": {
-      "type": ["null", "string"]
-    },
-    "shopify_product_id": {
-      "type": ["null", "string"]
-    },
-    "shopify_sync": {
-      "type": ["null", "string"]
-    },
-    "balluun_sync": {
-      "type": ["null", "string"]
-    },
-    "balluun_ext_id": {
-      "type": ["null", "string"]
-    },
-    "joor_product_id": {
-      "type": ["null", "string"]
-    },
-    "joor_sync": {
-      "type": ["null", "string"]
-    },
-    "pct_royalty": {
-      "type": ["null", "string"]
-    },
-    "amount_royalty": {
-      "type": ["null", "string"]
-    },
-    "lecensor": {
-      "type": ["null", "string"]
-    },
-    "joor_web_title": {
-      "type": ["null", "string"]
-    },
-    "joor_web_description": {
-      "type": ["null", "string"]
-    },
-    "pct_markup": {
-      "type": ["null", "string"]
-    },
-    "joor_sync_colorway_swatches": {
-      "type": ["null", "string"]
-    },
-    "skus_active": {
-      "type": ["null", "string"]
-    },
-    "last_modiefied_time": {
-      "type": ["null", "string"],
-      "format": "date-time"
-    },
-    "images": {
-      "type": ["null", "array"],
-      "items": {
-        "type": ["null", "object"],
-        "properties": {
-          "img": {
-            "type": ["null", "string"]
-          }
-        }
-      }
-    },
-    "price_groups": {
-      "type": ["null", "array"],
-      "items": {
-        "type": ["null", "object"],
-        "properties": {
-          "id": {
-            "type": ["null", "string"]
-          },
-          "product_id": {
-            "type": ["null", "string"]
-          },
-          "currency_id": {
-            "type": ["null", "string"]
-          },
-          "price_group": {
-            "type": ["null", "string"]
-          },
-          "price": {
-            "type": ["null", "string"]
-          }
-        }
-      }
-    },
-    "prepacks": {
-      "type": ["null", "array"],
-      "items": {
-        "type": ["null", "object"],
-        "properties": {
-          "name": {
-            "type": ["null", "string"]
-          },
-          "35": {
-            "type": ["null", "string"]
-          },
-          "36": {
-            "type": ["null", "string"]
-          },
-          "37": {
-            "type": ["null", "string"]
-          },
-          "38": {
-            "type": ["null", "string"]
-          },
-          "39": {
-            "type": ["null", "string"]
-          },
-          "40": {
-            "type": ["null", "string"]
-          },
-          "41": {
-            "type": ["null", "string"]
-          },
-          "42": {
-            "type": ["null", "string"]
-          },
-          "43": {
-            "type": ["null", "string"]
-          },
-          "44": {
-            "type": ["null", "string"]
-          },
-          "45": {
-            "type": ["null", "string"]
-          },
-          "46": {
-            "type": ["null", "string"]
-          },
-          "47": {
-            "type": ["null", "string"]
-          },
-          "48": {
-            "type": ["null", "string"]
-          }
-        }
-      }
-    },
-    "delivery": {
-      "type": ["null", "string"]
-    },
-    "nrf_code": {
-      "type": ["null", "string"]
-    },
-    "color_code": {
-      "type": ["null", "string"]
-    },
-    "old_style_code": {
-      "type": ["null", "string"]
-    },
-    "Versions": {
-      "type": ["null", "string"]
-    },
-    "material_code": {
-      "type": ["null", "string"]
-    },
-    "old_material_code": {
-      "type": ["null", "string"]
-    },
-    "SubCollection": {
-      "type": ["null", "string"]
-    },
-    "SellWindow": {
-      "type": ["null", "string"]
-    },
-    "gender": {
-      "type": ["null", "string"]
-    }
-  }
+	"type": ["null", "object"],
+	"additionalProperties": true,
+	"properties": {
+		"product_id": {
+			"type": ["null", "string"]
+		},
+		"is_product": {
+			"type": ["null", "string"]
+		},
+		"is_component": {
+			"type": ["null", "string"]
+		},
+		"is_bundle": {
+			"type": ["null", "string"]
+		},
+		"is_virtual_bundle": {
+			"type": ["null", "string"]
+		},
+		"is_inventory_tracked": {
+			"type": ["null", "string"]
+		},
+		"style_number": {
+			"type": ["null", "string"]
+		},
+		"alt_code": {
+			"type": ["null", "string"]
+		},
+		"description": {
+			"type": ["null", "string"]
+		},
+		"category": {
+			"type": ["null", "string"]
+		},
+		"class": {
+			"type": ["null", "string"]
+		},
+		"group": {
+			"type": ["null", "string"]
+		},
+		"size_range_id": {
+			"type": ["null", "string"]
+		},
+		"cost": {
+			"type": ["null", "string"]
+		},
+		"price": {
+			"type": ["null", "string"]
+		},
+		"retail_price": {
+			"type": ["null", "string"]
+		},
+		"margin": {
+			"type": ["null", "string"]
+		},
+		"cost_labor": {
+			"type": ["null", "string"]
+		},
+		"cost_materials": {
+			"type": ["null", "string"]
+		},
+		"cost_base": {
+			"type": ["null", "string"]
+		},
+		"cost_misc": {
+			"type": ["null", "string"]
+		},
+		"cost_landed": {
+			"type": ["null", "string"]
+		},
+		"duty_rate": {
+			"type": ["null", "string"]
+		},
+		"cost_duty": {
+			"type": ["null", "string"]
+		},
+		"cost_freight": {
+			"type": ["null", "string"]
+		},
+		"cost_auto": {
+			"type": ["null", "string"]
+		},
+		"vendor_cost_base": {
+			"type": ["null", "string"]
+		},
+		"vendor_currency_id": {
+			"type": ["null", "string"]
+		},
+		"origin": {
+			"type": ["null", "string"]
+		},
+		"content": {
+			"type": ["null", "string"]
+		},
+		"weight": {
+			"type": ["null", "string"]
+		},
+		"box_size": {
+			"type": ["null", "string"]
+		},
+		"tariff_code": {
+			"type": ["null", "string"]
+		},
+		"mid_code": {
+			"type": ["null", "string"]
+		},
+		"is_taxable": {
+			"type": ["null", "string"]
+		},
+		"notes": {
+			"type": ["null", "string"]
+		},
+		"vendor_id": {
+			"type": ["null", "string"]
+		},
+		"season": {
+			"type": ["null", "string"]
+		},
+		"price_break_id": {
+			"type": ["null", "string"]
+		},
+		"care_instructions": {
+			"type": ["null", "string"]
+		},
+		"unit_of_measure": {
+			"type": ["null", "string"]
+		},
+		"lead_time": {
+			"type": ["null", "string"]
+		},
+		"buyer_filter": {
+			"type": ["null", "string"]
+		},
+		"web_title": {
+			"type": ["null", "string"]
+		},
+		"web_description": {
+			"type": ["null", "string"]
+		},
+		"magento_config_product_id": {
+			"type": ["null", "string"]
+		},
+		"magento_category_id": {
+			"type": ["null", "string"]
+		},
+		"magento_attribute_set_id": {
+			"type": ["null", "string"]
+		},
+		"magento_last_price": {
+			"type": ["null", "string"]
+		},
+		"magento_sync": {
+			"type": ["null", "string"]
+		},
+		"magento_sync_timestamp": {
+			"type": ["null", "string"]
+		},
+		"shopify_product_id": {
+			"type": ["null", "string"]
+		},
+		"shopify_sync": {
+			"type": ["null", "string"]
+		},
+		"balluun_sync": {
+			"type": ["null", "string"]
+		},
+		"balluun_ext_id": {
+			"type": ["null", "string"]
+		},
+		"joor_product_id": {
+			"type": ["null", "string"]
+		},
+		"joor_sync": {
+			"type": ["null", "string"]
+		},
+		"pct_royalty": {
+			"type": ["null", "string"]
+		},
+		"amount_royalty": {
+			"type": ["null", "string"]
+		},
+		"lecensor": {
+			"type": ["null", "string"]
+		},
+		"joor_web_title": {
+			"type": ["null", "string"]
+		},
+		"joor_web_description": {
+			"type": ["null", "string"]
+		},
+		"pct_markup": {
+			"type": ["null", "string"]
+		},
+		"joor_sync_colorway_swatches": {
+			"type": ["null", "string"]
+		},
+		"skus_active": {
+			"type": ["null", "string"]
+		},
+		"last_modified_time": {
+			"type": ["null", "string"],
+			"format": "date-time"
+		},
+		"images": {
+			"type": ["null", "array"],
+			"items": {
+				"type": ["null", "object"],
+				"properties": {
+					"img": {
+						"type": ["null", "string"]
+					}
+				}
+			}
+		},
+		"price_groups": {
+			"type": ["null", "array"],
+			"items": {
+				"type": ["null", "object"],
+				"properties": {
+					"id": {
+						"type": ["null", "string"]
+					},
+					"product_id": {
+						"type": ["null", "string"]
+					},
+					"currency_id": {
+						"type": ["null", "string"]
+					},
+					"price_group": {
+						"type": ["null", "string"]
+					},
+					"price": {
+						"type": ["null", "string"]
+					}
+				}
+			}
+		},
+		"prepacks": {
+			"type": ["null", "array"],
+			"items": {
+				"type": ["null", "object"],
+				"properties": {
+					"name": {
+						"type": ["null", "string"]
+					},
+					"35": {
+						"type": ["null", "string"]
+					},
+					"36": {
+						"type": ["null", "string"]
+					},
+					"37": {
+						"type": ["null", "string"]
+					},
+					"38": {
+						"type": ["null", "string"]
+					},
+					"39": {
+						"type": ["null", "string"]
+					},
+					"40": {
+						"type": ["null", "string"]
+					},
+					"41": {
+						"type": ["null", "string"]
+					},
+					"42": {
+						"type": ["null", "string"]
+					},
+					"43": {
+						"type": ["null", "string"]
+					},
+					"44": {
+						"type": ["null", "string"]
+					},
+					"45": {
+						"type": ["null", "string"]
+					},
+					"46": {
+						"type": ["null", "string"]
+					},
+					"47": {
+						"type": ["null", "string"]
+					},
+					"48": {
+						"type": ["null", "string"]
+					}
+				}
+			}
+		},
+		"delivery": {
+			"type": ["null", "string"]
+		},
+		"nrf_code": {
+			"type": ["null", "string"]
+		},
+		"color_code": {
+			"type": ["null", "string"]
+		},
+		"old_style_code": {
+			"type": ["null", "string"]
+		},
+		"Versions": {
+			"type": ["null", "string"]
+		},
+		"material_code": {
+			"type": ["null", "string"]
+		},
+		"old_material_code": {
+			"type": ["null", "string"]
+		},
+		"SubCollection": {
+			"type": ["null", "string"]
+		},
+		"SellWindow": {
+			"type": ["null", "string"]
+		},
+		"gender": {
+			"type": ["null", "string"]
+		}
+	}
 }
