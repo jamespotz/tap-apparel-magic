@@ -314,7 +314,7 @@ def sync(state, catalog):
                         else:
                             last_update = row_transformed[bookmark_column]
 
-                    if page_number >= 1:#int(total_pages):
+                    if page_number >= int(total_pages):
                         # Weve reach the end of the page
                         break
                     page_number += 1
