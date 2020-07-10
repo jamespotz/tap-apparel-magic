@@ -299,8 +299,8 @@ def sync(state, catalog):
                         counts[stream.tap_stream_id] += 1
                         # write one or more rows to the stream:
                         record_schema = stream.schema
-                        row = transformer.transform(row, record_schema.to_dict())
-                        singer.write_records(stream.tap_stream_id, [row])
+                        row_transformed = transformer.transform(row, record_schema.to_dict())
+                        singer.write_records(stream.tap_stream_id, [row_transformed])
 
                         if ("last_modified_time" in row and
                                 bookmark_column == 'last_modified_time'):
@@ -312,9 +312,9 @@ def sync(state, catalog):
                             if new_update_time > old_update_time:
                                 last_update = row["last_modified_time"]
                         else:
-                            last_update = row[bookmark_column]
+                            last_update = row_transformed[bookmark_column]
 
-                    if page_number >= int(total_pages):
+                    if page_number >= 1:#int(total_pages):
                         # Weve reach the end of the page
                         break
                     page_number += 1
