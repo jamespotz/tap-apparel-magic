@@ -11,7 +11,7 @@ setup(
     py_modules=["tap_apparel_magic"],
     install_requires=[
         "singer-python==5.8.0",
-        "requests==2.20.0",
+        "requests==2.31.0",
         "python-dateutil==2.8.1",
         "attrs==19.3.0"
     ],
